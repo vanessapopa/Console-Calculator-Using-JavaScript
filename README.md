@@ -70,3 +70,5 @@ calculateSquareRoot(16)    // Output: 4
 ## Credits
 
 Course by freeCodeCamp.
+
+## Preview
