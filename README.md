@@ -4,7 +4,7 @@ A console-based calculator application built with JavaScript featuring basic ari
 
 ## Preview
 
-This is a console-based project. Example outputs are shown in the Example Output section below.
+<img width="632" height="203" alt="Screenshot 2025-12-30 at 1 11 48 PM" src="https://github.com/user-attachments/assets/82022e37-5651-430a-b9e9-42d71aa796c7" />
 
 ## Description
 
