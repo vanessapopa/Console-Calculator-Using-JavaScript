@@ -1,79 +1,71 @@
-# Hotel Feedback Form
+# Console Calculator Using JavaScript
 
-A simple, styled hotel feedback form web page built with HTML and CSS.
+A console-based calculator application built with JavaScript featuring basic arithmetic operations and mathematical functions.
 
 ## Preview
 
-<img width="632" height="203" alt="Screenshot 2025-12-30 at 1 11 48 PM" src="https://github.com/user-attachments/assets/82022e37-5651-430a-b9e9-42d71aa796c7" />
+This is a console-based project. Example outputs are shown in the Example Output section below.
 
 ## Description
-This project is a static feedback form that displays inputs for guest details (name, email, age), stay information, reasons for choosing the hotel, ratings for service and food, and an area for additional comments. The form demonstrates accessible markup and basic client-side validation for required fields.
+
+This repository contains functions that implement basic arithmetic and a couple of advanced math operations. The code is intended to be run with Node.js and prints results to the console.
 
 ## Technologies
 
-- HTML5
-- CSS3
+- JavaScript (ES6+)
+- Node.js (for runtime)
 
 ## Features
-- Clean, centered layout with labeled form fields
-- Required validation for name and email
-- Radio buttons for first-time guest question
-- Checkboxes for reasons guests chose the hotel
-- Dropdowns for rating service and food
-- Textarea for additional comments
-- Responsive-friendly layout with spacing and basic styling
+
+- Basic arithmetic operations: addition, subtraction, multiplication, division (with zero-division handling)
+- Advanced functions: square and square root calculations
+- Console-based output for all calculations
+- Built-in test cases demonstrating each function
 
 ## Installation & Usage
-To view this project locally:
-Clone the repository:
+
+1. Clone the repository
 
 ```bash
-git clone https://github.com/vanessapopa/Hotel-Feedback-Form.git
+git clone https://github.com/vanessapopa/Console-Calculator-Using-JavaScript.git
 ```
-Navigate to the project directory:
+
+2. Navigate to the project directory
 
 ```bash
-cd Hotel-Feedback-Form
+cd Console-Calculator-Using-JavaScript
 ```
-Open `index.html` in your browser, or serve the folder with a static server. Example using http-server:
+
+3. Run the calculator
 
 ```bash
-npx http-server -p 8000
+node script.js
 ```
-Then open http://localhost:8000 in your browser.
 
-Hotel Feedback Form
-A simple, styled hotel feedback form web page built with HTML and CSS.
+## Example Output
 
-Preview
-<img width="632" height="203" alt="Screenshot 2025-12-30 at 1 11 48 PM" src="https://github.com/user-attachments/assets/82022e37-5651-430a-b9e9-42d71aa796c7" />
+```javascript
+// Addition
+calculateSum(2, 5)        // Output: 7
+calculateSum(10, 10)      // Output: 20
 
+// Subtraction
+calculateDifference(22, 5) // Output: 17
 
-Description
-This project is a static feedback form that displays inputs for guest details (name, email, age), stay information, reasons for choosing the hotel, ratings for service and food, and an area for additional comments. The form demonstrates accessible markup and basic client-side validation for required fields.
+// Multiplication
+calculateProduct(13, 5)    // Output: 65
 
-Technologies
-HTML5
-CSS3
+// Division
+calculateQuotient(7, 11)   // Output: 0.636...
+calculateQuotient(3, 0)    // Output: "Error: Division by zero"
 
-Features
-Clean, centered layout with labeled form fields
-Required validation for name and email
-Radio buttons for first-time guest question
-Checkboxes for reasons guests chose the hotel
-Dropdowns for rating service and food
-Textarea for additional comments
-Responsive-friendly layout with spacing and basic styling
-Installation & Usage
-To view this project locally:
+// Square
+calculateSquare(9)         // Output: 81
 
-Clone the repository:
+// Square Root
+calculateSquareRoot(16)    // Output: 4
+```
 
-git clone https://github.com/vanessapopa/Hotel-Feedback-Form.git
-Navigate to the project directory:
+## Preview (Screenshot)
 
-cd Hotel-Feedback-Form
-Open index.html in your browser, or serve the folder with a static server. Example using http-server:
-
-npx http-server -p 8000
-Open http://localhost:8000 in your browser.
+If you want to add a screenshot or image, place it in the repo and reference it here.
