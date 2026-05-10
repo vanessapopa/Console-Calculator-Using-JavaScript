@@ -65,7 +65,3 @@ calculateSquare(9)         // Output: 81
 // Square Root
 calculateSquareRoot(16)    // Output: 4
 ```
-
-## Preview (Screenshot)
-
-If you want to add a screenshot or image, place it in the repo and reference it here.
